@@ -17,10 +17,49 @@
 
 .header {
     display: flex;
+    justify-content: center;
+    height: 300px;
+}
+
+.title {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: bolder;
+}
+
+.subtext {
+    font-size: 18px;
+    color: #E5E7EB
 }
 
 .left {
     display: flex;
     flex-direction: column;
-    wid
+    width: 400px;
+    justify-content: space-between;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    justify-content: space-between;
+}
+
+.header-link {
+    display: flex;
+    font-size: 18px;
+    color: #E5E7EB;
+    gap: 20px;
+}
+
+.image {
+    height: 100px;
+    width: 100px;
+}
+
+#button1 {
+    background-color: #3882F6;
+    color: white;
+    width: 120px;
 }
