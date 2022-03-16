@@ -78,7 +78,7 @@ body {
     width: 120px;
 }
 
-img {
+#main-image {
     width: 300px;
     height: 150px;
     align-self: end;
@@ -88,4 +88,35 @@ img {
     color: #F9FAF8;
     font-weight: bold;
     font-size: 24px;
+}
+
+.information-content {
+    display: flex;
+    
+}
+
+#one, #two,
+#three, #four {
+    display: flex;
+    flex-direction: column;
+}
+
+#first-image {
+    height: 200px;
+    width: 200px;
+}
+#second-image {
+    height: 200px;
+    width: 200px;
+}
+#third-image {
+    height: 200px;
+    width: 200px;
+}
+#fourth-image {
+    height: 200px;
+    width: 200px;
+}
+.information {
+
 }
