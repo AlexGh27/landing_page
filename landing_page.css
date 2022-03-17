@@ -17,7 +17,7 @@ body {
 }
 .quote {
     background-color: #E5E7EB;
-    height: 300px;
+    height: 450px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -132,19 +132,23 @@ body {
     font-size: 36px;
     font-weight: bolder;
     color: #1F2937;
+    
 }
 
 .information-content {
     display: flex;
     justify-content: center;
     gap: 100px;
+    
 }
 
 .information {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    height: 300px;
+    justify-content: start;
+    height: 450px;
+    gap: 40px;
+    padding-top: 50px;
     
 }
 #one {  
@@ -229,4 +233,44 @@ body {
     width: 700px;
     text-align: right;
     
+}
+
+.signup {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#blue-square {
+    background-color: #3882F6;
+    width: 1000px;
+    height: 150px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 250px;
+
+}
+
+#signup-text {
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+#signup-bold {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+#button2 {
+    background-color: #3882F6;
+    border-radius: 10px;
+    border-color: white;
+    width: 120px;
+    height: 35px;
+    font-size: 17px;
+    color: white;
 }
