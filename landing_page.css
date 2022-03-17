@@ -17,6 +17,11 @@ body {
 }
 .quote {
     background-color: #E5E7EB;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .header {
@@ -208,4 +213,20 @@ body {
     align-items: center;
     width: 140px;
     text-align: center;
+}
+
+#quote-text {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    width: 750px;
+    text-align: start;
+}
+
+#author {
+    font-size: 25px;
+    font-weight: bold;
+    width: 700px;
+    text-align: right;
+    
 }
